@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MyJokeUI</string>
+    <string name="jokeText">Here is where the joke text will be show</string>
+</resources>

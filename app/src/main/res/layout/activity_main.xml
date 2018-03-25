@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.udacity.gradle.builditbigger.MainActivityFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/fragment_main" />
+
+    <ProgressBar
+        android:id="@+id/progressJoke"
+        style="@android:style/Widget.ProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxHeight="20dp"
+        android:minHeight="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone" />
+
+</RelativeLayout>
